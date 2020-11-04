@@ -1,0 +1,154 @@
+html,body{
+    margin-top: 0px;
+    scroll-behavior: smooth;
+}
+img{
+    float:left;
+}
+ul{
+    float:right;
+}
+ul li{
+    padding: 10px 20px 0px 5px; 
+    float: left;
+    list-style: none;   
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav{
+    background-color: aqua;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+}
+#home {
+    background-image: url("../img/53.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1330px 400px;
+    height: 95%;
+}
+section{
+    padding-top: 70px;
+    float: left;
+    height: 800px;
+    width: 1330px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.gallary{
+    margin:auto;
+    width: 1332px;
+    height: 600px;
+    overflow: hidden;
+}
+.heading{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.slideshow{
+    height: 90%;
+    width: 2664px;
+    position: relative;
+    transition: left 5s;
+    -webkit-transition: left 5s;
+}
+.slideshow img{
+    width: 1332px;
+    height: 100%;
+    float:left;
+}
+.button-container{
+    top: -120px;
+    position: relative;
+    text-align: center;
+}
+.slider-button{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(39, 69, 97);
+}
+#slider_image1:target ~ .slideshow{
+    left:0;
+}
+#slider_image2:target ~ .slideshow{
+    left:-1332px;
+}
+#about{
+    height: 100%;
+}
+.card{
+    
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 5%;
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+.card img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
+.card .title{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.card-text{
+    text-align:left;
+    padding-left: 10px;
+}
+.card2{
+    
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 5%;
+    height: 400px;
+    width: 200px;
+    float: left;
+}
+.card2 img{
+    height: 200px;
+    width: 150px;
+    padding: 5px 25px 0px 25px;
+}
+.card2 .title{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.card3{
+    
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 5%;
+    height: 400px;
+    width: 200px;
+    float: left;
+}
+.card3 img{
+    height: 200px;
+    width: 150px;
+    padding: 5px 25px 0px 25px;
+}
+.card3 .title{
+    font-size: 30px;
+    text-decoration: underline;
+    color: blue;
+}
+.cards{
+    margin: 0px 120px 0px 120px;
+}
